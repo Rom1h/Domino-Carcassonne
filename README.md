@@ -1,34 +1,29 @@
-**Jeu de Domino**
+# Jeu de Domino
 
-Présentation :
+## Présentation
 
-Ce est un jeu de dominos programmé en Java 17 avec les librairies swing et awt. Ce jeu est largement inspiré du jeu Dominos, un jeu de société d'origine chinoise, utilisant 28 pièces.
+Ce jeu est un jeu de dominos programmé en Java 17, utilisant les librairies Swing et AWT. Il s'inspire largement du jeu de société d'origine chinoise "Dominos", qui utilise 28 pièces.
 
-Le principe est simple : un espace de jeu dans lequel il faut placer des dominos. Le jeu se joue à deux, chaque joueur pouvant déplacer son domino pour le placer de part et d'autre de
-la chaine. Cependant, pour placer un domino il faut que les faces des dominos qui se touchent soient équivalentes. Le but étant d'obtenir le plus de points pour gagner la partie.
+Le principe est simple : dans un espace de jeu, les joueurs doivent placer des dominos. Le jeu se joue à deux, chaque joueur pouvant déplacer son domino pour le placer de part et d'autre de la chaîne. Pour placer un domino, les faces des dominos qui se touchent doivent être équivalentes. Le but est d'obtenir le plus de points pour gagner la partie.
 
-**Jeu de Carcassone**
+# Jeu de Carcassonne
 
-Présentation :
+## Présentation
 
-Ce est un jeu de Carcassonne programmé en Java 17 avec les librairies swing et awt. Ce jeu est largement inspiré du jeu Carcassonne, un jeu de société de Klaus-Jürgen Wrede, édité en
-Allemagne par Hans im Glück. Le thème est la construction d'un paysage médiéval par la pose de tuiles, incluant des villes fortifiées telles que Carcassonne.
+Ce jeu est une adaptation programmée en Java 17 du jeu de société "Carcassonne", utilisant les librairies Swing et AWT. Inspiré par le jeu original de Klaus-Jürgen Wrede édité par Hans im Glück, son thème est la construction d'un paysage médiéval à travers la pose de tuiles, incluant des villes fortifiées comme Carcassonne.
 
-Le principe est le suivant : Carcassonne est un jeu de pose de tuiles, où l'on construit le plateau de jeu au cours de la partie. Des points sont attribués en fonction de la taille
-des combinaisons créées — villes, champs, routes, abbayes. Le jeu commence avec une seule tuile, les autres étant cachées dans la pioche. Chacun à son tour, les joueurs piochent une
-tuile et doivent la placer, en respectant les tuiles déjà en place : les villes et les routes ne peuvent être coupées.
-Le jeu est terminé quand toutes les tuiles ont été placées. On compte alors des points pour les abbayes, les champs, les routes et les villes non complétées.
+Le principe est de construire le plateau de jeu en posant des tuiles. Des points sont attribués pour les combinaisons de villes, champs, routes et abbayes. Le jeu commence avec une tuile et les autres sont piochées au fur et à mesure. Les joueurs doivent poser les tuiles en respectant les connexions avec celles déjà en place. Le jeu se termine lorsque toutes les tuiles ont été posées, et les points sont alors comptabilisés.
 
+## Exécution et compilation
 
-**Exécution, compilation**
+Après avoir téléchargé et décompressé le dépôt Moodle, dans une console, placez-vous dans le répertoire `pooig` et tapez les commandes suivantes :
 
-Après avoir téléchargé et décompressé notre dépôt moodle, dans une console placer vous dans le répertoire pooig et taper les commandes suivantes :
+```bash
+javac Domino/gui/HomePage.java
+java Domino/gui/HomePage
+```
 
-$ javac Domino/gui/HomePage.java
-
-$ java Domino/gui/HomePage
-
-**Jouer**
+## Jouer
 
 Pour naviguer dans l'application, tout se fait à l'aide de la souris. Vous serez d'abord sur la page d'accueil "HomePage" sur laquelle vous pouvez choisir de jouer aux dominos ou bien à
 Carcassonne. Une fois redirigé sur l'une ou l'autre des pages le principe reste le même. Vous pourez choisir de jouer, de voir les instructions du jeu en question ou de revenir sur la
