@@ -1,0 +1,71 @@
+Menu
+
+1. Un environnement de jeu, réalisant l’accueil de l’utilisateur, et permettant de procéder au
+paramétrage du jeu :
+
+	1 - choisir le jeu (dominos ou Carcassonne) ;
+	2 - choisir le nombre de joueurs ;
+	3 - sélectionner “humain” ou “IA” pour chaque joueur
+
+
+2. Domino (menu)
+
+	1 - Créer un menu (jouer,instructions,retour,quitter)
+	2 - Créer une page d'instructions/règles du jeu(dans le menu)
+	3 - Mettre une image de fond
+
+3. Jeu de Dominos
+
+	1 - Créer une page d'instruction d'avant-partie (faire un résumé des règles juste avant de jouer)
+	2 - Créer une partie de Domino (interface graphique et un mode de jeu “texte” pouvant se jouer entièrement dans le terminal)
+	4 - Mettre une image de fond
+	5 - Mode de jeu (pouvoir choisir entre jouer en 1v1 ou contre un bot)
+	6 - Mettre une barre de menu pour que l'utilisateur puisse intéragir avec l'interface(boutons pour commencer la partie,piocher,tourner la tuile, retour, rejouer)
+	7 - Modéliser les dominos
+	8 - Compter les scores des joueurs
+	9- Mettre fin à la partie(quand il n'y a plus de dominos à placer, compter les points et afficher qui a gagner)
+
+4. Carcassonne (menu)
+	
+	1 - Créer un menu (jouer,instructions,retour,quitter)
+	2 - Créer une page d'instructions/règles du jeu(dans le menu (implémentation partielle des règles))
+	3 - Mettre une image de fond
+
+	
+5. Jeu de Carcassonne
+
+	1 - Créer une page d'instruction d'avant-partie (faire un résumé des règles juste avant de jouer)
+	2 - Créer une partie de Carcassonne (interface graphique)
+	3 - Créer des tuiles fontionnelles (savoir ce qui se trouve dessus, définir le bon placement)
+	4 - Mettre une barre de menu pour que l'utilisateur puisse intéragir avec l'interface(boutons pour commencer la partie,piocher,tourner la tuile, retour, rejouer)
+	5 - Pouvoir choisir le nombre de joueur (2-5 joueurs)
+	6 - Pouvoir choisir un pseudo(boite de dialogue)
+	7 - Ajouter des partisans (des pions) à placer sur la tuile qui vient d'être posée (pas besoin de vérifier les contraintes de placement des pions : un joueur peut
+	    toujours placer un pion sur un élément de la tuile qu’il vient de jouer (pourvu qu’il lui en reste))
+	8 - Positionner les pions en fonctions de la demande du joueur(boite de dialogue)
+    9 - Mettre fin à la partie(quand il n'y a plus de tuile à placer, stopper la partie (pas besoin de compter les points))
+
+
+
+
+6. Fonctionnalités avancées
+
+	1 - Carcassonne 100%. Implémenter les règles manquantes de Carcassonne : contraintes
+	de placements des pions et calcul du score. (Pour cela, vous aurez besoin d’explorer ré-
+	cursivement les tuiles.)
+
+
+	2 - Sauvegardes. Permettre de sauvegarder des parties, et de les charger lors du paramétrage
+	du jeu. (En java les sauvegardes se font assez simplement en faisant en sorte que vos
+	objets implémentent l’interface Serialisable. Référez vous à la documentation de cette
+	interface.)
+
+
+	3 - HAL 9000. Concevoir une IA meilleure que le hasard, pour un des deux jeux ou les deux.
+	Expliquez votre démarche dans le rapport.
+
+
+	4 - Hexa-Carcassonne. Ces jeux sont naturellement les mêmes si l’on utilise des tuiles
+	hexagonales plutôt que carrées. Pouvez vous commencer à structurer de tels jeux ? (L’im-
+	plémentation n’est pas demandée. Vous pouvez vous contenter de décrire votre approche
+	en détail dans le rapport.)
