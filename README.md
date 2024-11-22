@@ -16,7 +16,7 @@ Le principe est de construire le plateau de jeu en posant des tuiles. Des points
 
 ## Exécution et compilation
 
-Après avoir téléchargé et décompressé le dépôt Moodle, dans une console, placez-vous dans le répertoire `pooig` et tapez les commandes suivantes :
+Après avoir téléchargé et décompressé le dépôt, dans une console, placez-vous dans le répertoire `pooig` et tapez les commandes suivantes :
 
 ```bash
 javac Domino/gui/HomePage.java
